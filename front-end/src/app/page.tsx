@@ -12,7 +12,7 @@ export default function Home() {
     sources: [
       {
         // The path must point to your master playlist in the /public folder
-        src: "http://localhost:8080/master.m3u8",
+        src: "https://d3jxjbmcxkannb.cloudfront.net/test/master.m3u8",
         type: "application/x-mpegURL", // The MIME type for HLS
       },
     ],
