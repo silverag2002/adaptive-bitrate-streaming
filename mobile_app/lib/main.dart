@@ -27,7 +27,7 @@ class VideoPlayerScreen extends StatefulWidget {
 class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
   late BetterPlayerController _betterPlayerController;
   final String hlsUrl =
-      "https://d3jxjbmcxkannb.cloudfront.net/test/master.m3u8"; // Your HLS stream URL
+      "https://d3jxjbmcxkannb.cloudfront.net/1L2b4g-0AG_8Q0hS0l3REqm4h-Npt-Udh/master.m3u8"; // Your HLS stream URL
 
   @override
   void initState() {
